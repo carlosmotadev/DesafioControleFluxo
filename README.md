@@ -1,18 +1,39 @@
-## Getting Started
+# Desafio Controle de Fluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto visa exercitar o conteúdo apresentado no módulo de Controle de Fluxo, através da implementação de um sistema que recebe dois parâmetros via terminal e realiza interações para imprimir números incrementados no console.
 
-## Folder Structure
+## Desafio de Projeto
 
-The workspace contains two folders by default, where:
+Este programa foi desenvolvido como parte de um desafio de projeto. Você pode encontrar o desafio em [Desafio controle de fluxo Java](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/controle-fluxo) da trilha de Java Básico da Digital Innovation One.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Requisitos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Para executar este programa, você precisará ter o Java 8+ instalado em sua máquina.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como executar
 
-## Dependency Management
+1. Abra um terminal.
+2. Compile o programa ContaTerminal.java usando o seguinte comando:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    ```bash
+    javac ContaTerminal.java
+    ```
+
+3. Execute o programa compilado usando o seguinte comando:
+
+    ```bash
+    java ContaTerminal
+    ```
+
+4. Siga as instruções fornecidas pelo programa para inserir as informações da conta.
+
+## Funcionalidades
+
+- Receber dois parâmetros via terminal que representam dois números inteiros.
+- Realizar interações (for) para imprimir os números incrementados no console.
+- Lançar uma exceção customizada, `ParametrosInvalidosException`, se o primeiro parâmetro for maior que o segundo.
+
+
+## Contribuição
+
+Se você encontrar algum problema ou tiver alguma sugestão de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
